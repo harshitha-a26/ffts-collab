@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Freethinking School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: teal;
+    text-align: center;
+/* background-image: url('https://c0.wallpaperflare.com/preview/889/168/945/toys-frame-background-image-puzzle.jpg'); Replace with a higher resolution image */
+background-repeat: no-repeat; /* Prevent tiling */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Optional: Keep the background fixed while scrolling */
+}
+ h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        .image-gallery img {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+        
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    footer {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 22%;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-section p, 
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.newsletter button:hover {
+    background-color: darkred;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
+
+.payment-icons img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+.social-icons a img {
+    width: 25px;
+  margin:5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px;
+    width: 200px;
+    outline: none;
+}
+.search-bar button {
+    background-color: #ddd;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.download-btn {
+    background-color: #88b04b;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #6f8f3a;
+}
+
+.login-register a, .cart a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.menu ul li a:hover {
+    color: #88b04b;
+}
+.initiatives {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #f5f5f5;
+    }
+
+    .initiatives h2 {
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .our {
+      color: green;
+    }
+
+    .initiatives-text {
+      color: orangered;
+    }
+
+    .initiatives-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .initiative {
+      text-align: center;
+      max-width: 220px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .initiative img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: none;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .initiative img:hover {
+      transform: scale(1.1);
+    }
+
+    .initiative p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .initiative p span {
+      font-size: 14px;
+      font-weight: normal;
+      display: block;
+      color: gray;
+    }
+
+    .initiative.show {
+      opacity: 1;
+      transform: translateY(0);
+      transition-delay: var(--delay);
+    }
+
+
+
+
+     /* Hero Section */
+     .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #E3F2FD;
+        }
+
+        .hero img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero .content {
+            width: 50%;
+        }
+
+        .hero .content h1 {
+            margin-bottom: 20px;
+            color: #2196F3;
+        }
+
+        .hero .content p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+.hero .content button {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    color: #2196F3;
+}
+
+.features .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+        }
+
+        .features .card {
+            flex: 1;
+            min-width: 280px;
+            background-color: #fce4ec;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .features .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .features .card h3 {
+            color: #2196F3;
+            margin-bottom: 15px;
+        }
+
+ /* Testimonial Section */
+ .testimonial {
+            background-color: #E1F5FE;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .testimonial h2 {
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+            font-size: 1.2em;
+        }
+
+      
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://www.thefreethinkingschool.com/images/logo.png" alt="freethinking logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products">
+            <button>🔍</button>
+        </div>
+        <button class="download-btn">DOWNLOAD CATALOGUE</button>
+        <div class="login-register">
+            <a href="#">LOGIN / REGISTER</a>
+        </div>
+        <div class="cart">
+            <a href="#">🛒 ₹ 0</a>
+        </div>
+    </nav>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="c1.html">Montessori Premium</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Wishlist ❤</a></li>
+            <li><a href="registration.html">Login/Register</a></li>
+        </ul>
+    </nav>
+    <script>document.querySelector(".download-btn").addEventListener("click", function() {
+        alert("Download catalogue functionality will be added soon!");
+    });</script>
+
+
+   <!-- Hero Section -->
+   <section class="hero">
+    <div class="content">
+        <h1>Welcome to Freethinking School</h1>
+        <h3>Our Story</h3>
+        <p>
+            The goal of the Freethinking School's preschool program (1.5 – 6 years) is to unbox a child's talents and creativity. We follow the Montessori method of education that develops the child's five senses through manipulative materials in the classroom, providing for hands-on education.
+
+            Dr. Maria Montessori described ages 3 to 6 as the second phase of the 'sensitive period'. This is a time of enormous developmental leaps, when children are ready to expand their vocabulary, grasp math concepts, and develop habits for working with others.
+        </p>
+    
+    </div>
+    <img src="https://media.istockphoto.com/id/1355189282/photo/toddler-plays-with-different-figures-at-the-table-sorting-them-by-color.jpg?s=612x612&w=0&k=20&c=wGoOopPi72iZDkUo97jpkbjsW_DVTQL6w9tJkvA71zU=" alt="Kids Learning">
+</section>
+<!-- Features Section -->
+<section class="features">
+    <div class="cards">
+        <div class="card">
+            <h3>Our Difference</h3>
+            <p>
+                Where do we learn the lessons that we need for life? Is it in the classroom? Or by observing firsthand through field trips, talks by lifelong experts in a field, a customized curriculum that draws from all fields for a balanced viewpoint, or even themes that link together supposedly random topics to draw out underlying links and connections.
+            
+                "Experience" is the master teacher that spontaneously ignites a love for learning by doing, observing, and experimenting. It is the <span class="highlight">TFS experience</span> that keeps our little freethinkers actively engaged and enthralled in discovery.
+            </p>
+            </div>
+          
+        </div>
+    </section>
+ <!-- Testimonial Section -->
+ <section class="testimonial">
+    <h2>What Parents Say</h2>
+    <p>
+        "The Freethinking School has transformed my child's learning experience. They now love going to school every day!"
+    </p>
+    <p>– Happy Parent</p>
+</section>
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section address">
+                <h3>ADDRESS</h3>
+                <p> 371, 8th Cross Rd, </p>
+                <p>S.T. Bed, Cauvery Colony,</p>
+                <p> Koramangala, Bengaluru 560 095</p>
+                <p>Email: <a href="mailto:sales@kidoenterprises.in">admin@thefreethinkingschool.com</a></p>
+                <p>Phone: <a href="tel:+918861001367">+91 73533 53500</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h3>IMPORTANT LINKS</h3>
+                <ul>
+                    <li><a href="FAQ.HTML">FAQ</a></li>
+
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section links">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3>SIGNUP FOR NEWSLETTER</h3>
+                <input type="email" id="email" placeholder="Your Email (required)">
+                <button onclick="subscribeNewsletter()">SIGN UP</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2025 Free Thinking School </p>
+            <div class="payment-icons">
+                <!-- <img src="visa-icon.png" alt="VISA">
+            <img src="mastercard-icon.png" alt="MasterCard">
+            <img src="payu-icon.png" alt="PayU"> -->
+                <div class="payment-icons">
+                    <!-- Visa Icon -->
+                    <i class="fab fa-cc-visa"></i>
+
+                    <!-- MasterCard Icon (if you need it as well) -->
+                    <i class="fab fa-cc-mastercard"></i>
+
+                    <!-- PayU (using an image since PayU does not have a FontAwesome icon) -->
+                    <!-- <img src="payu-icon.png" alt="PayU"> -->
+                </div>
+            </div>
+    </footer>
+
+    <script src="script.js">
+        function subscribeNewsletter() {
+            let email = document.getElementById("email").value;
+            if (email === "") {
+                alert("Please enter your email address.");
+            } else {
+                alert("Thank you for subscribing!");
+            }
+        }
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Freethinking School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: teal;
+    text-align: center;
+background-image: url('https://c0.wallpaperflare.com/preview/889/168/945/toys-frame-background-image-puzzle.jpg'); /* Replace with a higher resolution image */
+background-repeat: no-repeat; /* Prevent tiling */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Optional: Keep the background fixed while scrolling */
+}
+ h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        .image-gallery img {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+        
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    footer {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 22%;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.footer-section p, 
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.newsletter button:hover {
+    background-color: darkred;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
+
+.payment-icons img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+.social-icons a img {
+    width: 25px;
+  margin:5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px;
+    width: 200px;
+    outline: none;
+}
+.search-bar button {
+    background-color: #ddd;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.download-btn {
+    background-color: #88b04b;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #6f8f3a;
+}
+
+.login-register a, .cart a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.menu ul li a:hover {
+    color: #88b04b;
+}
+.initiatives {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #f5f5f5;
+    }
+
+    .initiatives h2 {
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .our {
+      color: green;
+    }
+
+    .initiatives-text {
+      color: orangered;
+    }
+
+    .initiatives-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .initiative {
+      text-align: center;
+      max-width: 220px;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .initiative img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: none;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .initiative img:hover {
+      transform: scale(1.1);
+    }
+
+    .initiative p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .initiative p span {
+      font-size: 14px;
+      font-weight: normal;
+      display: block;
+      color: gray;
+    }
+
+    .initiative.show {
+      opacity: 1;
+      transform: translateY(0);
+      transition-delay: var(--delay);
+    }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://www.thefreethinkingschool.com/images/logo.png" alt="freethinking logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products">
+            <button>🔍</button>
+        </div>
+        <button class="download-btn">DOWNLOAD CATALOGUE</button>
+        <!-- <div class="login-register">
+            <a href="#">LOGIN / REGISTER</a>
+        </div> -->
+        <div class="cart">
+            <a href="#">Cart 🛒 ₹ 0</a>
+        </div>
+    </nav>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="c1.html">Montessori Premium</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Wishlist ❤</a></li>
+            <li><a href="registration.html">Login/Register</a></li>
+        </ul>
+    </nav>
+    <script>document.querySelector(".download-btn").addEventListener("click", function() {
+        alert("Download catalogue functionality will be added soon!");
+    });</script>
+
+
+    <h1 style="font-size: 45px;">Welcome to Freethinking School</h1>
+    <p style="color: #333;font-size: 15px;">
+        Welcome to The Freethinking School, a unique fun-filled space, buzzing with freethinking creativity;
+        a space that inspires a love for learning for the rest of your child's life;
+        a space that your child loves to eagerly come to, every day.<br><br>
+        We provide a stimulating environment rich in experiences that helps each child discover their full potential by
+        nurturing creativity, purposeful thinking, and equipping them with the necessary skill sets that contribute towards joyful, productive living.
+    </p>
+
+    <div class="image-gallery">
+        <img src="https://www.thefreethinkingschool.com/images/gallery/lau_thumb.jpg" alt="TFS-Kudlu Launch">
+        <img src="https://www.thefreethinkingschool.com/images/gallery/asa_thumb.jpg" alt="Afterschool Activities">
+        <img src="https://www.thefreethinkingschool.com/images/gallery/rea_thumb.jpg" alt="Reading Awareness Week">
+       
+    </div>
+    <h2 style="text-align: center;color: #333;font-size: 25px;">At The Freethinking School, our focus is on
+        montessori-based, personalized, experiential learning that transcends the classroom,
+        to make every child a freethinker for life.</h2>
+        <p  style="color: purple;font-size: 30px;">it’s time to free think education!</p>
+       
+        <section class="initiatives">
+            <h2 style="color: #E91E63;">Our Initiatives</h2>
+            <div class="initiatives-container">
+              <div class="initiative animate" style="--delay: 0.2s;">
+                <img src="https://www.thefreethinkingschool.com/images/free_smile.png" alt="Free Smiles">
+                <p>Free Smiles is a freethinking family initiative to share some happiness with others in our
+                  community.<br><span>share happiness!</span></p>
+              </div>
+              <div class="initiative animate" style="--delay: 0.4s;">
+                <img src="https://www.thefreethinkingschool.com/images/mont_net.png" alt="Montessori for Masses">
+                <p>Montessori for Masses is a forum for Montessories and Montessories to come together to share their ideas and
+                  experiences.<br><span>FOR MASSES</span></p>
+              </div>
+              <div class="initiative animate" style="--delay: 0.6s;">
+                <img src="https://www.thefreethinkingschool.com/images/alumni_meet.png" alt="The Freethinking Family">
+                <p>the freethinking family is a forum for our past and present families to come together to share their
+                  experiences.<br><span>alumni meet</span></p>
+              </div>
+            </div>
+          </section>
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const initiatives = document.querySelectorAll(".initiative");
+        
+              function revealInitiatives() {
+                initiatives.forEach((initiative) => {
+                  const rect = initiative.getBoundingClientRect();
+                  if (rect.top < window.innerHeight - 50) {
+                    initiative.classList.add("show");
+                  }
+                });
+              }
+        
+              window.addEventListener("scroll", revealInitiatives);
+              revealInitiatives();
+            });
+          </script>
+    
+  
+    <footer class="f1">
+        <p>We use cookies to ensure the best experience on our website. <button
+                onclick="acceptCookies()">Accept</button></p>
+    </footer>
+
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section address">
+                <h3>ADDRESS</h3>
+                <p> 371, 8th Cross Rd, </p>
+                <p>S.T. Bed, Cauvery Colony,</p>
+                <p> Koramangala, Bengaluru 560 095</p>
+                <p>Email: <a href="mailto:sales@kidoenterprises.in">admin@thefreethinkingschool.com</a></p>
+                <p>Phone: <a href="tel:+918861001367">+91 73533 53500</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h3>IMPORTANT LINKS</h3>
+                <ul>
+                    <li><a href="FAQ.HTML">FAQ</a></li>
+
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section links">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="testimonal.html">Testimonials</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3>SIGNUP FOR NEWSLETTER</h3>
+                <input type="email" id="email" placeholder="Your Email (required)">
+                <button onclick="subscribeNewsletter()">SIGN UP</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2025 Free Thinking School </p>
+            <div class="payment-icons">
+                <!-- <img src="visa-icon.png" alt="VISA">
+            <img src="mastercard-icon.png" alt="MasterCard">
+            <img src="payu-icon.png" alt="PayU"> -->
+                <div class="payment-icons">
+                    <!-- Visa Icon -->
+                    <i class="fab fa-cc-visa"></i>
+
+                    <!-- MasterCard Icon (if you need it as well) -->
+                    <i class="fab fa-cc-mastercard"></i>
+
+                    <!-- PayU (using an image since PayU does not have a FontAwesome icon) -->
+                    <!-- <img src="payu-icon.png" alt="PayU"> -->
+                </div>
+            </div>
+    </footer>
+
+    <script src="script.js">
+        function subscribeNewsletter() {
+            let email = document.getElementById("email").value;
+            if (email === "") {
+                alert("Please enter your email address.");
+            } else {
+                alert("Thank you for subscribing!");
+            }
+        }
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
